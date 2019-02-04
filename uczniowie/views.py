@@ -11,5 +11,5 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     """Strona główna"""
-    return render_template('index.html')
+    return render_template('lista.html' , query=klasa)
 
